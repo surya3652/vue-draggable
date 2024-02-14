@@ -8,6 +8,7 @@
         </h4>
         <div class="col-lg-6">
           <draggable
+            style="min-height: 112px"
             class="draggable-list1"
             :list="list1"
             :group="{ name: 'mygroup1', put: true }"
@@ -19,6 +20,7 @@
         </div>
         <div class="col-lg-6">
           <draggable
+            style="min-height: 112px"
             class="draggable-list1"
             :list="list2"
             :group="{ name: 'mygroup1', put: true }"
@@ -38,6 +40,7 @@
         </h4>
         <div class="col-lg-6">
           <draggable
+            style="min-height: 112px"
             class="draggable-list2"
             :list="list3"
             :group="{ name: 'mygroup2', put: false }"
@@ -49,6 +52,7 @@
         </div>
         <div class="col-lg-6">
           <draggable
+            style="min-height: 112px"
             class="draggable-list2"
             :list="list4"
             :group="{ name: 'mygroup2', put: true }"
@@ -68,6 +72,7 @@
         </h4>
         <div class="col-lg-6">
           <draggable
+            style="min-height: 112px"
             class="draggable-list3"
             :list="list5"
             :group="{ name: 'mygroup3', pull: 'clone', put: true }"
@@ -79,6 +84,7 @@
         </div>
         <div class="col-lg-6">
           <draggable
+            style="min-height: 112px"
             class="draggable-list3"
             :list="list6"
             :group="{ name: 'mygroup3', pull: 'clone', put: true }"
@@ -98,6 +104,7 @@
         </h4>
         <div class="col-lg-6">
           <draggable
+            style="min-height: 112px"
             class="draggable-list4"
             :list="list7"
             :group="{ name: 'mygroup4', pull: 'clone', put: false }"
@@ -109,6 +116,7 @@
         </div>
         <div class="col-lg-6">
           <draggable
+            style="min-height: 112px"
             class="draggable-list4"
             :list="list8"
             :group="{ name: 'mygroup4', put: true }"
