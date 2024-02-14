@@ -101,7 +101,7 @@
           <draggable
             class="draggable-list4"
             :list="list7"
-            :group="{ name: 'mygroup3', pull: 'clone', put: false }"
+            :group="{ name: 'mygroup4', pull: 'clone', put: false }"
           >
             <div class="list-item" v-for="element in list7" :key="element">
               {{ element }}
@@ -112,7 +112,7 @@
           <draggable
             class="draggable-list4"
             :list="list8"
-            :group="{ name: 'mygroup3', put: true }"
+            :group="{ name: 'mygroup4', put: true }"
           >
             <div class="list-item" v-for="element in list8" :key="element">
               {{ element }}
