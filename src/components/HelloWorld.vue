@@ -61,7 +61,6 @@
       </div>
       <hr />
       <hr />
-
       <div class="row">
         <h4>
           Both block elements are draggable into the other and cloning is
